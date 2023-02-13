@@ -1,0 +1,10 @@
+Makefile:6: *** missing separator.  Stop.
+# the above error is because make works with tab not spaces
+
+
+ERROR: Kernel configuration is invalid.
+         include/generated/autoconf.h or include/config/auto.conf are missing.
+         Run 'make oldconfig && make prepare' on kernel src to fix it.
+# the above error could be fixed by reinstalling the kernel header file :   https://askubuntu.com/questions/890712/kernel-configuration-is-invalid-error-while-trying-to-install-paragon-ufsd-profe
+
+sudo apt install --reinstall linux-headers-$(uname -r)
