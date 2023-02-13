@@ -2,7 +2,7 @@
 #include <linux/kernel.h>
 
 int init_module(void){
-  pr_info("Function loaded to kernel : "!!HELLO WORLD FROM KERNEL!!"\n");
+  pr_info("Function loaded to kernel : '!!HELLO WORLD FROM KERNEL!!'\n");
   return 0;
 }
 
