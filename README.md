@@ -1,7 +1,7 @@
 KERNEL MODULE CREATOIN
 # kernel_programming
 *********
-NOTE : JUST COPY THE .c and the Makefile for compilation purpose
+NOTE : JUST COPY THE hello_world_kernel.c and the Makefile for compilation purpose
 the file "some_trouble_shooting_commands" is for some extra documenations and resources
 *********
 
